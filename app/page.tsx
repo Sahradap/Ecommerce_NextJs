@@ -16,7 +16,7 @@ import budha from "./assets/budha.webp"
 export default function Home() {
   return (
     <>
-      <div className="container mt-4">
+      <div className="container mt-4 d-none d-md-block">
         <div className="row text-center">
           <div className="col">
             <Image src={fashion} width={50} alt="fashion"/>
