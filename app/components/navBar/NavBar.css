@@ -1,0 +1,19 @@
+.navbar-bg{
+    background-color: rgb(55, 79, 94);
+}
+.navbar-bg .nav-link {
+  color: white
+}
+
+/* .navbar-bg .nav-link.active {
+  color:red
+} */
+.tab-space{
+  padding-left:10em;
+  text-indent:2em;
+}
+
+.active-tab {
+  color:  red !important;
+  font-weight: bold;
+}
