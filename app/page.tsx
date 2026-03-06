@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className="col">
             <Image src={toy} width={50} alt="toys"/>
-            <p>Toys & Games</p>
+            <p>Toys&Games</p>
           </div>
           <div className="col">
             <Image src={grocery} width={50} alt="grocery"/>
