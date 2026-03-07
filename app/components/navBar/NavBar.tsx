@@ -14,11 +14,12 @@ export default function NavBar() {
 if (!cart) return null;
 
 const { clearCart, totalItems } = cart;
+
   const router = useRouter();
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
 
-  const [loggedUser, setLoggedUser] =useState<string | null>(null);;
+  const [loggedUser, setLoggedUser] =useState<string | null>(null);
 
   useEffect(() => {
     const user = localStorage.getItem("user");
@@ -34,7 +35,7 @@ const { clearCart, totalItems } = cart;
     clearCart();
   };
 
-  // const isLoggedIn = !!loggedUser;
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-bg text-dark fs-5">
