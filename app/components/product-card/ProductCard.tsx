@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext} from "react";
 import "../special-buttons/SpecialButtons.css";
 import { CartContext } from "../context/CartContext";
 
