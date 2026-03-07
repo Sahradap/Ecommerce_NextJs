@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useContext, useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import "./NavBar.css";
 import { CartContext } from "../context/CartContext";
 import { usePathname, useRouter } from "next/navigation";
